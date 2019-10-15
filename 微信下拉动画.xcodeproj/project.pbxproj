@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		404991C3235332BF00849162 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 404991C2235332BF00849162 /* AppDelegate.m */; };
+		404991C6235332BF00849162 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404991C5235332BF00849162 /* ViewController.m */; };
+		404991C9235332BF00849162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404991C7235332BF00849162 /* Main.storyboard */; };
+		404991CB235332C100849162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 404991CA235332C100849162 /* Assets.xcassets */; };
+		404991CE235332C100849162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 404991CC235332C100849162 /* LaunchScreen.storyboard */; };
+		404991D1235332C100849162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 404991D0235332C100849162 /* main.m */; };
+		404991D92353342500849162 /* SecondFloorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 404991D82353342500849162 /* SecondFloorView.m */; };
+		404991DC23533E0600849162 /* DeviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 404991DB23533E0600849162 /* DeviceView.m */; };
+		51A672CEE181E101D1CFF364 /* libPods-微信下拉动画.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD501F66E671684298208F6 /* libPods-微信下拉动画.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E5B32A295F7762F7E9C9FA7 /* Pods-微信下拉动画.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-微信下拉动画.release.xcconfig"; path = "Target Support Files/Pods-微信下拉动画/Pods-微信下拉动画.release.xcconfig"; sourceTree = "<group>"; };
+		404991BE235332BF00849162 /* 微信下拉动画.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "微信下拉动画.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		404991C1235332BF00849162 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		404991C2235332BF00849162 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		404991C4235332BF00849162 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		404991C5235332BF00849162 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		404991C8235332BF00849162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		404991CA235332C100849162 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		404991CD235332C100849162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		404991CF235332C100849162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		404991D0235332C100849162 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		404991D72353342500849162 /* SecondFloorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondFloorView.h; sourceTree = "<group>"; };
+		404991D82353342500849162 /* SecondFloorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondFloorView.m; sourceTree = "<group>"; };
+		404991DA23533E0600849162 /* DeviceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceView.h; sourceTree = "<group>"; };
+		404991DB23533E0600849162 /* DeviceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceView.m; sourceTree = "<group>"; };
+		B7BB3E90AD45EB2A384CEA4E /* Pods-微信下拉动画.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-微信下拉动画.debug.xcconfig"; path = "Target Support Files/Pods-微信下拉动画/Pods-微信下拉动画.debug.xcconfig"; sourceTree = "<group>"; };
+		BCD501F66E671684298208F6 /* libPods-微信下拉动画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-微信下拉动画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		404991BB235332BF00849162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A672CEE181E101D1CFF364 /* libPods-微信下拉动画.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		404991B5235332BF00849162 = {
+			isa = PBXGroup;
+			children = (
+				404991C0235332BF00849162 /* 微信下拉动画 */,
+				404991BF235332BF00849162 /* Products */,
+				829A737B98699E6E8458B45E /* Pods */,
+				5A38BF61F3B02E5B858C8970 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		404991BF235332BF00849162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				404991BE235332BF00849162 /* 微信下拉动画.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		404991C0235332BF00849162 /* 微信下拉动画 */ = {
+			isa = PBXGroup;
+			children = (
+				404991C1235332BF00849162 /* AppDelegate.h */,
+				404991C2235332BF00849162 /* AppDelegate.m */,
+				404991C4235332BF00849162 /* ViewController.h */,
+				404991C5235332BF00849162 /* ViewController.m */,
+				404991D72353342500849162 /* SecondFloorView.h */,
+				404991D82353342500849162 /* SecondFloorView.m */,
+				404991DA23533E0600849162 /* DeviceView.h */,
+				404991DB23533E0600849162 /* DeviceView.m */,
+				404991C7235332BF00849162 /* Main.storyboard */,
+				404991CA235332C100849162 /* Assets.xcassets */,
+				404991CC235332C100849162 /* LaunchScreen.storyboard */,
+				404991CF235332C100849162 /* Info.plist */,
+				404991D0235332C100849162 /* main.m */,
+			);
+			path = "微信下拉动画";
+			sourceTree = "<group>";
+		};
+		5A38BF61F3B02E5B858C8970 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCD501F66E671684298208F6 /* libPods-微信下拉动画.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		829A737B98699E6E8458B45E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7BB3E90AD45EB2A384CEA4E /* Pods-微信下拉动画.debug.xcconfig */,
+				2E5B32A295F7762F7E9C9FA7 /* Pods-微信下拉动画.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		404991BD235332BF00849162 /* 微信下拉动画 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404991D4235332C100849162 /* Build configuration list for PBXNativeTarget "微信下拉动画" */;
+			buildPhases = (
+				AA843790A7D172E51434F297 /* [CP] Check Pods Manifest.lock */,
+				404991BA235332BF00849162 /* Sources */,
+				404991BB235332BF00849162 /* Frameworks */,
+				404991BC235332BF00849162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "微信下拉动画";
+			productName = "微信下拉动画";
+			productReference = 404991BE235332BF00849162 /* 微信下拉动画.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		404991B6235332BF00849162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Chris;
+				TargetAttributes = {
+					404991BD235332BF00849162 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 404991B9235332BF00849162 /* Build configuration list for PBXProject "微信下拉动画" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 404991B5235332BF00849162;
+			productRefGroup = 404991BF235332BF00849162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				404991BD235332BF00849162 /* 微信下拉动画 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		404991BC235332BF00849162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404991CE235332C100849162 /* LaunchScreen.storyboard in Resources */,
+				404991CB235332C100849162 /* Assets.xcassets in Resources */,
+				404991C9235332BF00849162 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA843790A7D172E51434F297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-微信下拉动画-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		404991BA235332BF00849162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404991DC23533E0600849162 /* DeviceView.m in Sources */,
+				404991C6235332BF00849162 /* ViewController.m in Sources */,
+				404991D92353342500849162 /* SecondFloorView.m in Sources */,
+				404991D1235332C100849162 /* main.m in Sources */,
+				404991C3235332BF00849162 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		404991C7235332BF00849162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404991C8235332BF00849162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		404991CC235332C100849162 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				404991CD235332C100849162 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		404991D2235332C100849162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		404991D3235332C100849162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		404991D5235332C100849162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7BB3E90AD45EB2A384CEA4E /* Pods-微信下拉动画.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C68L837K3;
+				INFOPLIST_FILE = "微信下拉动画/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanweiz.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		404991D6235332C100849162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E5B32A295F7762F7E9C9FA7 /* Pods-微信下拉动画.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C68L837K3;
+				INFOPLIST_FILE = "微信下拉动画/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yanweiz.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		404991B9235332BF00849162 /* Build configuration list for PBXProject "微信下拉动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404991D2235332C100849162 /* Debug */,
+				404991D3235332C100849162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404991D4235332C100849162 /* Build configuration list for PBXNativeTarget "微信下拉动画" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				404991D5235332C100849162 /* Debug */,
+				404991D6235332C100849162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 404991B6235332BF00849162 /* Project object */;
+}
