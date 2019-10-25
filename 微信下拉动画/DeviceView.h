@@ -39,16 +39,17 @@ is_IphoneXseries; \
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol DeviceViewDelegate <NSObject>
-
+    
 - (void)updateMarkView:(CGFloat)scrollViewOffsetDifValue;
-
-@end
+- (void)configMarkView:(BOOL)bHidden;
+    
+    @end
 
 
 @interface DeviceView : UIScrollView
-
-@property (nonatomic, weak) id <DeviceViewDelegate> offSetChangeDelegate;
-
-@end
+    
+    @property (nonatomic, weak) id <DeviceViewDelegate> offSetChangeDelegate;
+    
+    @end
 
 NS_ASSUME_NONNULL_END
