@@ -10,10 +10,8 @@
 #import "SecondFloorView.h"
 #import "DeviceView.h"
 #import <Masonry.h>
+#import "ZJCircleProgressView.h"
 
-
-#define GKPAGE_SCREEN_WIDTH     [UIScreen mainScreen].bounds.size.width
-#define GKPAGE_SCREEN_HEIGHT    [UIScreen mainScreen].bounds.size.height
 
 
 
@@ -22,6 +20,9 @@
 @property (nonatomic, strong) UIView *markView;
     
 @property (nonatomic, strong) UILabel *progressLabel;
+    
+    
+@property (nonatomic, strong) ZJCircleProgressView *progressView;
     
 @end
 
@@ -51,23 +52,38 @@
     }];
     
     
-    UIView *markProgressView = [[UIView alloc] init];
-    markProgressView.backgroundColor = UIColor.redColor;
-    [_markView addSubview:markProgressView];
-    [markProgressView mas_makeConstraints:^(MASConstraintMaker *make) {
+    self.progressView = [[ZJCircleProgressView alloc] init];
+    // 背景色
+    self.progressView.trackBackgroundColor = [UIColor clearColor];
+    // 进度颜色
+    self.progressView.trackColor = [UIColor whiteColor];
+    self.progressView.lineWidth = 4;
+//    self.progressView.headerImage = [self drawImage];
+    // 开始角度位置
+    //    self.progressView.beginAngle =
+    // 自定义progressLabel的属性...
+//    self.progressView.progressLabel.textColor = [UIColor lightGrayColor];
+    [self.progressView.progressLabel setHidden:YES];
+    self.progressView.progress = 0.0;
+
+    
+//    UIView *markProgressView = [[UIView alloc] init];
+//    markProgressView.backgroundColor = UIColor.redColor;
+    [_markView addSubview:_progressView];
+    [_progressView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.equalTo(_markView);
-        make.left.equalTo(_markView).offset(30);
-        make.size.mas_equalTo(20);
+        make.left.equalTo(_markView).offset(45);
+        make.size.mas_equalTo(CGSizeMake(25, 25));
     }];
     
     
     UILabel *label = [[UILabel alloc] init];
-    label.text = @"0%";
+    label.text = @"下拉查看更多环境信息...";
     self.progressLabel = label;
     [_markView addSubview:label];
     [label mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerY.equalTo(_markView);
-        make.left.equalTo(markProgressView.mas_right).offset(35);
+        make.left.equalTo(_progressView.mas_right).offset(35);
     }];
     
     
@@ -101,8 +117,8 @@
         CGFloat alphaValue = 1 * progress;
         self.markView.alpha = alphaValue;
         
-        self.progressLabel.text = [NSString stringWithFormat:@"%f",progress];
-        
+        self.progressView.progress = progress;
+
         
         [self.markView mas_updateConstraints:^(MASConstraintMaker *make) {
             make.height.mas_equalTo(markViewSizeValue);

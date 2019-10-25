@@ -15,6 +15,7 @@
 		404991D1235332C100849162 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 404991D0235332C100849162 /* main.m */; };
 		404991D92353342500849162 /* SecondFloorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 404991D82353342500849162 /* SecondFloorView.m */; };
 		404991DC23533E0600849162 /* DeviceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 404991DB23533E0600849162 /* DeviceView.m */; };
+		40F4BB612362E3A60082F59B /* ZJCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40F4BB602362E3A60082F59B /* ZJCircleProgressView.m */; };
 		51A672CEE181E101D1CFF364 /* libPods-微信下拉动画.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD501F66E671684298208F6 /* libPods-微信下拉动画.a */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,8 @@
 		404991D82353342500849162 /* SecondFloorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondFloorView.m; sourceTree = "<group>"; };
 		404991DA23533E0600849162 /* DeviceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeviceView.h; sourceTree = "<group>"; };
 		404991DB23533E0600849162 /* DeviceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeviceView.m; sourceTree = "<group>"; };
+		40F4BB5F2362E3A60082F59B /* ZJCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJCircleProgressView.h; sourceTree = "<group>"; };
+		40F4BB602362E3A60082F59B /* ZJCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJCircleProgressView.m; sourceTree = "<group>"; };
 		B7BB3E90AD45EB2A384CEA4E /* Pods-微信下拉动画.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-微信下拉动画.debug.xcconfig"; path = "Target Support Files/Pods-微信下拉动画/Pods-微信下拉动画.debug.xcconfig"; sourceTree = "<group>"; };
 		BCD501F66E671684298208F6 /* libPods-微信下拉动画.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-微信下拉动画.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,6 +76,8 @@
 			children = (
 				404991C1235332BF00849162 /* AppDelegate.h */,
 				404991C2235332BF00849162 /* AppDelegate.m */,
+				40F4BB5F2362E3A60082F59B /* ZJCircleProgressView.h */,
+				40F4BB602362E3A60082F59B /* ZJCircleProgressView.m */,
 				404991C4235332BF00849162 /* ViewController.h */,
 				404991C5235332BF00849162 /* ViewController.m */,
 				404991D72353342500849162 /* SecondFloorView.h */,
@@ -116,6 +121,7 @@
 				404991BA235332BF00849162 /* Sources */,
 				404991BB235332BF00849162 /* Frameworks */,
 				404991BC235332BF00849162 /* Resources */,
+				AAF22AABA3992BB9A7D7FC65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +200,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		AAF22AABA3992BB9A7D7FC65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-微信下拉动画/Pods-微信下拉动画-resources.sh",
+				"${PODS_ROOT}/ZZCircleProgress/ZZCircleProgressDemo/ZZCircleProgress/ZZCircleProgress.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZZCircleProgress.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-微信下拉动画/Pods-微信下拉动画-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -206,6 +234,7 @@
 				404991D92353342500849162 /* SecondFloorView.m in Sources */,
 				404991D1235332C100849162 /* main.m in Sources */,
 				404991C3235332BF00849162 /* AppDelegate.m in Sources */,
+				40F4BB612362E3A60082F59B /* ZJCircleProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

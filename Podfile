@@ -10,5 +10,6 @@ target '微信下拉动画' do
 
 
 pod 'Masonry', '0.6.4'
+pod 'ZZCircleProgress', '~> 0.2.1'
 
 end
